@@ -8920,7 +8920,7 @@ _.c=c
 _.d=d
 _.f=e},
 bph(){var s=$.cp(),r=new A.Q_(),q=A.dy(0,0,3e4,0),p=A.dy(0,0,3e4,0)
-p=A.bcO("http://localhost/api",q,A.ah(["Content-Type","application/json"],t.N,t.z),p)
+p=A.bcO("/api",q,A.ah(["Content-Type","application/json"],t.N,t.z),p)
 q=new A.aef($,new A.TD(A.a([B.Jq],t.i6)),$,new A.aj7(51200),!1)
 q.a4a$=p
 q.a4c$=new A.abI(A.aS(t.lZ))
@@ -54277,7 +54277,7 @@ case 7:n=b1
 if(n==null){a6.$1("Authentication token is missing. Please log in again.")
 s=1
 break}b=""+a9
-m=A.jr("http://localhost/api/export_submissions/"+b+"/pdf/logo")
+m=A.jr("/api/export_submissions/"+b+"/pdf/logo")
 a=t.N
 l=A.ah(["header_opacity",B.c.k(a8.b),"header_size",B.c.k(a8.c),"header_alignment",a8.d,"signatures_size",B.c.k(a8.e),"signatures_alignment",a8.f],a,a)
 k=A.bgo("POST",m)
@@ -64202,7 +64202,7 @@ return A.j(B.c4.Io(0,"jwt_token"),$async$Dx)
 case 7:m=d
 if(m==null){i=A.bu("Authentication token is missing")
 throw A.e(i)}l=B.b.gar(n.a.c.d.split("\\"))
-k="http://localhost/api/attachments/"+b
+k="/api/attachments/"+b
 if(a.e==null){s=1
 break}A.aE(a,!0).c4()
 A.bjl(m,k,l)
