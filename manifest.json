@@ -1,11 +1,11 @@
 {
-    "name": "cmms_app",
-    "short_name": "cmms_app",
+    "name": "draft_module",
+    "short_name": "draft_module",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A product by AnguloSoft",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
