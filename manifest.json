@@ -1,7 +1,7 @@
 {
     "name": "draft_module",
     "short_name": "draft_module",
-    "start_url": ".",
+    "start_url": "/app/",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
