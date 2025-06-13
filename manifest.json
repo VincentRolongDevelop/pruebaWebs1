@@ -1,11 +1,11 @@
 {
-    "name": "draft_module",
-    "short_name": "draft_module",
+    "name": "PLG CMMS",
+    "short_name": "PLG CMMS",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "PLG CMMS",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
